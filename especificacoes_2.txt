@@ -1,0 +1,82 @@
+------#######----blibliotecas python------#######----
+importando ma biblioteca no python
+
+import math --> usa todos itens da biblioteca
+ from math import sqrt --> importa apenas a funcao sqrt(raiz quadrada)
+ from math import sqrt, factorial --> importa 2 funcoes
+math --> bliot --> responsavel por formulas matematicas simples ou compostas
+
+ ceil --> arredondamento pra mais
+ floor --> arredondamento pra menos
+ trunc --> elima da virgula pra frente
+ ** ou pow  --> potencia
+ sqrt --> raiz quadrada
+ factorial --> fatorial de numeros
+
+ ceil --> arredontamento para cima (ex: math.ceil)
+
+
+floor --> arredontamento para baixo
+
+math.trunc( X )
+Retorne o Realvalor x truncado para um Integral(geralmente um número inteiro)
+. Delega para x.__trunc__(). --> usado para pegar valor inteiro do numero
+
+math.modf( X )
+Retorne as partes fracionárias e inteiras de x . Ambos os resultados carregam o sinal de x e são flutuadores.
+
+
+### mexendo com list###
+
+frase[:5] --> comeca do inicio da list e vai ate a casa 5
+
+frase[15:] --> comeca da casa 15 e vai ate o final da list
+
+frase [9::3] --> comeca na casa 9 e pula 3 em 3 casa ate o final
+
+len[frase] --> retorna o tamanho da string
+
+frase.count('o') --> conta qnts 0 tem na string
+
+frase.count('o',0,13) -->conta qnts 0 tem na string e da casa 0 a casa 13
+
+frase.find('deo') --> mostra qual casa comeca a sequencia d-e-o
+frase.find('android') --> como nao tem android na frase retorna -1
+
+'Curso' in frase --> retorna true ou false no caso do exemplo: true
+
+obs: uma lista é imutavel vc so conseque mudar ela atraves dos metodos
+
+##Transformacao
+
+frase.replace('Python','Android') --> replace serve para subistituir frase
+ou palavra de um local ex Python troca por android
+
+frase.upper() --> troca tudo por maisculo
+
+frase.lower() --> troca tudo por minusculo
+
+frase.capitalize() --> joga tudo pra minusculo e dps so coloca a
+primeira letra da string em maisculo
+
+frase.title() --> joga tudo pra minusculo e dps coloca cd palavra da
+string em maisculo
+
+frase.strip() --> remove todos os espacos inutel da string
+
+frase.rstrip() --> remove todos os espacos inutel da string so do lado direito --> r de
+right
+
+frase.lstrip() --> remove todos os espacos inutel da string so do lado esquerda --> l de
+left
+
+#divisao
+
+frase.slipt() --> dividi a string na onde tem espaco (dividi uma string em lista)
+
+'-'.join(frase) --> dps da string dividida pelo slipt
+carlos
+henrique -
+pedro-
+joao -
+
