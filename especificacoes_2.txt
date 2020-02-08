@@ -74,9 +74,38 @@ left
 
 frase.slipt() --> dividi a string na onde tem espaco (dividi uma string em lista)
 
-'-'.join(frase) --> dps da string dividida pelo slipt
-carlos
+'-'.join(frase) --> É o inverso do split().
+
+", ".join("abc")
+
+# 'a, b, c'
+
 henrique -
 pedro-
 joao -
+
+
+print """alguma coisa muito grande aqui ai usa 3 aspa """
+
+print(frase.upper().count('o')) --> conta qnts 0 tem na frase dps que
+ tranformou ela em maisculo
+
+ print(len(frase.strip())) --> neste caso conta qnts casa tem na string e o
+ strip serve para eliminar os espacos da frase(comeco e fim da frase so)
+
+
+ toda string é imutavel vc so consegue mexer nela atraves do replace
+
+ obs
+
+ frase = 'Curso em video python'
+ frase.replace('python', 'android') --> mudou python para android na frase
+ print(frase)--> neste caso a saida vai ficar python pq vc so mudou na estancia de cima
+ caso queria gravar as alteracao fazer neste medo
+
+ frase = frase.replace('python', 'android')
+ print(frase)
+
+
+ todo metodo do python tem () ex--> ex.lower()
 
