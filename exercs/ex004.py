@@ -1,4 +1,5 @@
-'''Faca um programa que leia algo pelo teclado e mostre na tela o seu tipo primario e todos as informacoes possiveis sobre ela'''
+'''Faca um programa que leia algo pelo teclado e mostre na tela o seu tipo
+primário e todos as informacoes possiveis sobre ela'''
 
 n = input('Digite algo: ')
 
