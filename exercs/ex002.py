@@ -3,7 +3,4 @@
 
 nome = input('Digite seu nome: ')
 
-print('Bem vindos, {}'.format(nome))
-
-
-
+print('\033[1;92;41m Bem vindos, {}'.format(nome))

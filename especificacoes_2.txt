@@ -84,7 +84,6 @@ henrique -
 pedro-
 joao -
 
-
 print """alguma coisa muito grande aqui ai usa 3 aspa """
 
 print(frase.upper().count('o')) --> conta qnts 0 tem na frase dps que
@@ -92,7 +91,6 @@ print(frase.upper().count('o')) --> conta qnts 0 tem na frase dps que
 
  print(len(frase.strip())) --> neste caso conta qnts casa tem na string e o
  strip serve para eliminar os espacos da frase(comeco e fim da frase so)
-
 
  toda string é imutavel vc so consegue mexer nela atraves do replace
 
@@ -106,6 +104,26 @@ print(frase.upper().count('o')) --> conta qnts 0 tem na frase dps que
  frase = frase.replace('python', 'android')
  print(frase)
 
-
  todo metodo do python tem () ex--> ex.lower()
 
+#####Condicoes###
+
+condicao simples  so um IF
+
+condicao composta:
+
+if:
+
+else:
+
+ex:
+if tempo <=3:
+    print('Seu carro esta novo')
+else:
+    print('Seu carro esta velho')
+print('Fim :)')
+
+##Cores Python##
+
+ANSI
+escape sequence

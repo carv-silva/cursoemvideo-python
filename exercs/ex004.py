@@ -10,3 +10,5 @@ print('É um alfanumerico? {}'.format(n.isalnum()))
 print('Esta em letra maiscula? {}' .format(n.isupper()))
 print('Esta em letra maiscula? {}'.format(n.islower()))
 print('Esta capitalizada? {}' .format(n.istitle()))
+
+cor = {'pretao_loko': '\033[;1;30;44m'}
