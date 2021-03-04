@@ -1,0 +1,25 @@
+Mundo02 - 40 videos
+
+1 - Condicoes simples / composta e alianhadas
+2 - Interacoes estruturar de repiticoes infinita e aninhadas
+
+
+#Aula 012#####
+'''Condicoes
+if = se
+elif = senao se
+else = senao
+
+if carro.esquerda():
+    bloco1
+elif carro.direita():
+    bloco2
+elif carro.re():
+    bloco3
+else:
+    bloco4
+'''
+
+Aninhada = pq é um dentro do outro Ex: ninho de passarinho
+
+
