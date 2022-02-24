@@ -9,8 +9,9 @@ primeiroNumero = int(input('Entre com primeiro numero: '))
 segundoNumero = int(input('Entre com segundo numero: '))
 
 if primeiroNumero > segundoNumero:
-    print(f'O primeiro numero é maior: {primeiroNumero}')
+    print(f'O Primeiro numero é maior: {primeiroNumero}')
 elif segundoNumero > primeiroNumero:
-    print(f'O segundo numero é maior: {segundoNumero}')
+    print(f'O SEGUNDO numero é maior: {segundoNumero}')
 else:
     print('O dois numero sao iguais')
+
