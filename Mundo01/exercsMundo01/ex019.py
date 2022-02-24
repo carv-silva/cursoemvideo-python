@@ -25,3 +25,5 @@ escolha = choice(lista)
 print(f'O escolhido é {escolha}')
 
 
+
+
