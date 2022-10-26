@@ -1,0 +1,48 @@
+-----#####-----Tuplas-----#####-----
+tuplas sao IMUTAVEIS
+
+tuplas sao declaradas com () ou sem a partir da versao 3.5 do python
+
+tuplas = ()
+listas = []
+dicionario = {}
+o indice da tupla sempre vai comecar por 0
+
+exemplo = (0, 1, 2, 3, 4)
+
+lanche = (0, 1, 2, 3, 4)
+
+acessar a posição 2
+
+ex: print(lanche[2])
+output: 2
+
+acessar duas posiçoes
+
+ex: print(lanche[0:2])
+neste caso ele vai trazer apenas 0 e 1 o dois ele nao traz por regra da propia tupla
+
+trazer de uma posição especifica ate o final
+
+ex: print(lanche[1:]) --> vai pegar da posição 1 ate o final
+
+acessar o ultimo o elemento
+
+ex: print(lanche[-1]) --> vai trazer o ultimo item
+
+acessar o penultimo  elemento
+
+ex: print(lanche[-2]) --> vai trazer o penultimo item
+
+medindo o tamanho da tupla
+
+ex: print(len(lanche)) --> vai trazer o tamanho da tupla
+output: 4
+
+percorendo uma tupla com for:
+
+for c in lanche:
+    print(c)
+# ira mostrar todos os itens da tupla
+
+no python as tuplas aceita qualquer valores ex: int, string, float
